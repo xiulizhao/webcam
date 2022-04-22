@@ -1,0 +1,23 @@
+
+<div data-wwclass="webcam"
+     data-wweditor="@@WWIDPATH@@editor/webcam.js"
+     data-wwlabel="摄像头拍照"
+     data--enable="true"
+     data-wwcompiler="@@WWIDPATH@@compiler/webcam.js"
+     data-wwplugin="@@WWIDPATH@@runtime/"
+     data-removetitle title="摄像头拍照 元素, 用于xxx, 可右键调进行元素设置">
+  <div class="camera" ></div>
+ <form>
+    <input class="photograph" style=" cursor:pointer" type=button value="点击拍照">
+    <input class="changecamera" style=" cursor:pointer" type=button value="切换摄像头">
+ </form>
+ 
+</div>
+
+<!--
+使用说明:
+ - 根据你的元素类型选择使用一般元素模板或者剖面元素模板
+ - 替换模板中"元素标识"为具体元素标识, 元素标识格式: 小写字母和数字, 数字不可作为开头
+ - 替换模板中"元素中文名"为具体中文名, 改中文名与发布时的元素名称保持一致
+ - 如果没有编辑器, 删除"data-wweditor"属性
+ - 编写元素内容
